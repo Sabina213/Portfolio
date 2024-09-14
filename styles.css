@@ -1,0 +1,87 @@
+/* Main Wrapper */
+#main-wrapper {
+    display: flex;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+/* Profile section */
+#profile-section {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Side Wrapper for Skills, Education, and Experience */
+#side-wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Skills Box */
+#skills-box {
+    padding: 30px;
+    border: 2px solid #808B49;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Education & Experience stacked vertically */
+#edu-exp-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#education-section, #experience-section {
+    padding: 30px;
+    border: 2px solid #808B49;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Profile Section Styles */
+#image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #808B49;
+}
+
+#about-me {
+    padding: 30px;
+    border: 2px solid #808B49;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #main-wrapper {
+        flex-direction: column;
+    }
+
+    #side-wrapper {
+        flex-direction: column;
+    }
+
+    #profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
